@@ -1,0 +1,261 @@
+body {
+  background-color: #333333;
+}
+
+.bg-img {
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333333;
+    font-family: 'League Spartan', sans-serif;
+  }
+
+  .topnavR {
+    overflow: hidden;
+    background-color: #333333;
+    font-family: 'League Spartan', sans-serif;
+  }
+
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    margin: 20px;
+    width: 95%;
+  }
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: aliceblue;
+  color:#333333;
+}
+
+.topnavR a {
+  float: right;
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnavR a:hover {
+  background-color: aliceblue;
+  color:#333333;
+}
+
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: aliceblue;
+  color:#333333;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: aliceblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #333333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(216, 224, 231);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Dancing Script', cursive;
+  color: #333333;
+  font-size: 55px;
+
+}
+
+h2 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+h3 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'League Spartan', sans-serif;
+  color: #333333;
+  font-size: 20px;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+h4 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'League Spartan', sans-serif;
+  color: #333333;
+  font-size: 20px;
+  background-color: rgba(204, 204, 204, 0.5);
+  padding: 5px;
+}
+
+h6 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'League Spartan', sans-serif;
+  color: #333333;
+  font-size: 25px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  font-family: 'League Spartan', sans-serif;
+  color: #333333;
+  font-size: 20px;
+  background-color: aliceblue;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #333333;
+  color: aliceblue;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: aliceblue;
+  color: #333333;
+}
+
+/* Add a background color and some padding around the form */
+.container2 {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  transform: translate(-50% -50%);
+  color: #333333;
+  font-size: 20px;
+  background-color: rgba(204, 204, 204, 0.5);
+  padding: 5px;
+  width: 50%;
+}
+
+#logo1 {
+  width: 3%; height: auto;
+  position: absolute;
+  left: 45%;
+  padding-bottom: 10px;
+}
+
+#logo2 {
+  width: 3%; height: auto;
+  position: absolute;
+  left: 50%;
+  padding-bottom: 10px;
+}
+
+#logo3 {
+  width: 3%; height: auto;
+  position: absolute;
+  left: 55%;
+  padding-bottom: 10px;
+}
